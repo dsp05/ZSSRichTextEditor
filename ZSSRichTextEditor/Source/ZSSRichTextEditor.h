@@ -110,6 +110,14 @@ static NSString * const ZSSRichTextEditorToolbarNone = @"com.zedsaid.toolbaritem
  */
 - (NSString *)getText;
 
+
+/**
+ *  Prepares for inserting an image or link
+ *
+ */
+- (void)prepareInsert;
+
+
 /**
  *  Inserts HTML at the caret position
  *
